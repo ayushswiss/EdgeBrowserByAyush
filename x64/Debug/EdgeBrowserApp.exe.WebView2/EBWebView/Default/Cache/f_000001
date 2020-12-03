@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.1.0.386"/>
+  
+  <script type="text/javascript">
+   // Redirect to phone/tablet as necessary
+(function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
+0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
+0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)document.location=h+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","tablet/index.html","");
+
+// Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://ctmodule.com/tablet/index.html"/>
+  <link rel="shortcut icon" href="images/favicon.ico?crc=3841015459"/>
+  <title>Home</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=77608935"/>
+  <link rel="stylesheet" type="text/css" href="css/master_d-master.css?crc=381213328"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=57179441" id="pagesheet"/>
+    <!--custom head HTML-->
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KC8MPLK');</script>
+<!-- End Google Tag Manager -->
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu57746"><!-- column -->
+    <div class="colelem" id="u57746"><!-- custom html -->
+     <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC8MPLK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    </div>
+    <a class="nonblock nontext MuseLinkActive clip_frame colelem" id="u47142" href="index.html" data-href="page:U71"><!-- image --><img class="block" id="u47142_img" src="images/ctmodule_logo367x140.png?crc=3867250221" alt="" width="367" height="139"/></a>
+    <div class="clearfix colelem" id="pu48478"><!-- group -->
+     <div class="browser_width grpelem" id="u48478-bw">
+      <div class="museBGSize" id="u48478"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u68242-bw">
+      <div class="museBGSize" id="u68242"><!-- group -->
+       <div class="clearfix" id="u68242_align_to_page">
+        <!-- m_editable region-id="editable-static-tag-U2493-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix grpelem" id="u2493-7" data-muse-uid="U2493" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p id="u2493-2">CTModule- Swiss Integrated Unified</p>
+         <p id="u2493-5"><span id="u2493-3">Communication Solutions </span></p>
+        </div>
+        <!-- /m_editable -->
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- m_editable region-id="editable-static-tag-U5411-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix colelem" id="u5411-3" data-muse-uid="U5411" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>&nbsp;</p>
+    </div>
+    <!-- /m_editable -->
+    <img class="colelem" id="u229-4" alt="OUR BUSINESS FIELDS" width="980" height="30" src="images/u229-4.png?crc=4212169088" data-IBE-flags="txtStyleSrc"/><!-- rasterized frame -->
+    <div class="colelem" id="u232"><!-- simple frame --></div>
+    <!-- m_editable region-id="editable-static-tag-U33601-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix colelem" id="u33601-4" data-muse-uid="U33601" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>CTModule offers Communication and Guest Services Platforms in the fields of Enterprise Communications and Hospitality Solutions. The main strengths are modularity, flexibility, individuality and cost-efficiency paired with a huge application portfolio.</p>
+    </div>
+    <!-- /m_editable -->
+    <div class="clearfix colelem" id="pu1579"><!-- group -->
+     <!-- m_editable region-id="editable-static-tag-U1579-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext transition museBGSize rounded-corners grpelem" id="u1579" href="hospitality-communication.html" data-href="page:U2258" data-muse-uid="U1579"><!-- content --></a>
+     <!-- /m_editable -->
+     <div class="clearfix grpelem" id="u37537"><!-- group -->
+      <!-- m_editable region-id="editable-static-tag-U1588-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+      <a class="nonblock nontext transition museBGSize rounded-corners grpelem" id="u1588" href="enterprise-communication.html" data-href="page:U2246" data-muse-uid="U1588"><!-- content --></a>
+      <!-- /m_editable -->
+      <!-- m_editable region-id="editable-static-tag-U1635-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+      <div class="clearfix grpelem" id="u1635-4" data-muse-uid="U1635" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p id="u1635-2">Enterprise Communications</p>
+      </div>
+      <!-- /m_editable -->
+     </div>
+     <!-- m_editable region-id="editable-static-tag-U1807-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+     <div class="clearfix grpelem" id="u1807-4" data-muse-uid="U1807" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+      <p id="u1807-2">Hospitality Solutions</p>
+     </div>
+     <!-- /m_editable -->
+     <div class="clearfix grpelem" id="u57846"><!-- group -->
+      <!-- m_editable region-id="editable-static-tag-U57760-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+      <a class="nonblock nontext rounded-corners grpelem" id="u57760" href="oracle-validated.html" data-href="page:U57825" data-muse-uid="U57760"><!-- content --></a>
+      <!-- /m_editable -->
+      <!-- m_editable region-id="editable-static-tag-U57750-BP_infinity" template="index.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+      <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u57750" href="oracle-validated.html" data-href="page:U57825" data-muse-uid="U57750" data-muse-type="img_frame"><!-- image --><img class="block" id="u57750_img" src="images/o-valint-oraclehospitality-cmyk.png?crc=437302333" alt="" width="266" height="119" data-muse-src="images/o-valint-oraclehospitality-cmyk.png?crc=437302333"/></a>
+      <!-- /m_editable -->
+      <!-- m_editable region-id="editable-static-tag-U57766-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable,txtStyleTarget" data-ice-editable="link" -->
+      <a class="nonblock nontext rounded-corners clearfix grpelem" id="u57766-6" href="oracle-validated.html" data-href="page:U57825" data-muse-uid="U57766" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>Callisto <span id="u57766-2">CRUISE</span> is now validated for integration with Oracle Hospitality!</p></a>
+      <!-- /m_editable -->
+      <!-- m_editable region-id="editable-static-tag-U57769-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable,txtStyleTarget" data-ice-editable="link" -->
+      <a class="nonblock nontext rounded-corners clearfix grpelem" id="u57769-4" href="oracle-validated.html" data-href="page:U57825" data-muse-uid="U57769" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>more &gt;</p></a>
+      <!-- /m_editable -->
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u305-bw">
+     <div class="museBGSize" id="u305"><!-- group -->
+      <div class="clearfix" id="u305_align_to_page">
+       <div class="clearfix grpelem" id="u48702"><!-- group -->
+        <div class="rgba-background rounded-corners grpelem" id="u48703"><!-- simple frame --></div>
+       </div>
+       <div class="clip_frame grpelem" id="u48723"><!-- svg -->
+        <img class="svg" id="u48718" src="images/oracle-gold-partner-logo.svg?crc=483630211" width="277" height="91" alt="" data-mu-svgfallback="images/oracle%20gold%20partner%20logo_poster_.png?crc=89905051"/>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu57675"><!-- group -->
+     <div class="grpelem" id="u57675"><!-- custom html -->
+      <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8"></script><a class="asp-embed-link" href="http://www.ctmodule.com/ciscomediasense_eol.html" target="_blank"><img src="https://spark.adobe.com/page/9sjvk9qCAAY0t/embed.jpg?buster=1596456031830" alt="Cisco MediaSense" style="width:100%" border="0" /></a>
+     </div>
+     <div class="clearfix grpelem" id="pu57680-4"><!-- column -->
+      <img class="colelem" id="u57680-4" alt="End Of Life Cisco MediaSense" width="551" height="34" src="images/u57680-4.png?crc=4283876683" data-IBE-flags="txtStyleSrc"/><!-- rasterized frame -->
+      <!-- m_editable region-id="editable-static-tag-U57679-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+      <div class="text clearfix colelem" id="u57679-4" data-muse-uid="U57679" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p>End-of-Support of Cisco® MediaSense: Why Callisto VoiceRecording is your best alternative</p>
+      </div>
+      <!-- /m_editable -->
+     </div>
+    </div>
+    <!-- m_editable region-id="editable-static-tag-U834-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="h2 clearfix colelem" id="u834-4" data-muse-uid="U834" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <h2>OUR PRODUCTS &amp; SERVICES</h2>
+    </div>
+    <!-- /m_editable -->
+    <div class="colelem" id="u835"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="u33913"><!-- column -->
+     <div class="colelem" id="u33910"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="u975"><!-- group -->
+      <div class="museBGSize grpelem" id="u836"><!-- simple frame --></div>
+      <div class="clearfix grpelem" id="pu838-4"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U838-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="h3 clearfix colelem" id="u838-4" data-muse-uid="U838" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <h3>CALLISTO ENTERPRISE PLATFORM</h3>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U837-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="text clearfix colelem" id="u837-4" data-muse-uid="U837" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Quick responses have become crucial for the market success. To bring all Cisco®’s Unified Communications Manager (UCM/UCME/BEXk/HCS) to its full potential the Callisto Enterprise platform offers important features...</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U842-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext rounded-corners clearfix colelem" id="u842-4" href="callisto.html" data-href="page:U2294" data-muse-uid="U842" data-muse-type="txt_frame"><!-- content --><p id="u842-2">READ MORE</p></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33922"><!-- group -->
+     <div class="grpelem" id="u33919"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u33626"><!-- group -->
+      <div class="museBGSize grpelem" id="u33629"><!-- simple frame --></div>
+      <div class="clearfix grpelem" id="pu33631-4"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U33631-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u33631-4" data-muse-uid="U33631" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Callisto Hospitality Platform</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U33630-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="text clearfix colelem" id="u33630-4" data-muse-uid="U33630" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>The Callisto Hospitality Platform offers a comprehensive and individual range of Guest Services and Process Optimization Applications by integrating the premises based existing systems, such as PMS, Room Control, IPTV, etc.</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U33627-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext rounded-corners clearfix colelem" id="u33627-4" href="hospitality-communication.html" data-href="page:U2258" data-muse-uid="U33627" data-muse-type="txt_frame"><!-- content --><p id="u33627-2">READ MORE</p></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33928"><!-- group -->
+     <div class="grpelem" id="u33925"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u19877"><!-- group -->
+      <div class="museBGSize grpelem" id="u19882"><!-- simple frame --></div>
+      <div class="clearfix grpelem" id="pu19881-4"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U19881-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u19881-4" data-muse-uid="U19881" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>CALLISTO OPERATOR CONSOLE</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U19880-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="text clearfix colelem" id="u19880-4" data-muse-uid="U19880" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>First contact is crucial - even by phone! Each way a company gets in touch with it’s customers is an excellent opportunity to demonstrate competence, proximity and professionalism. In order to achieve this goal, you have the needs for appropriate tools....</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U19878-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext rounded-corners clearfix colelem" id="u19878-4" href="coc.html" data-href="page:U2306" data-muse-uid="U19878" data-muse-type="txt_frame"><!-- content --><p id="u19878-2">READ MORE</p></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33934"><!-- group -->
+     <div class="grpelem" id="u33931"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u33662"><!-- group -->
+      <div class="museBGSize grpelem" id="u33665"><!-- simple frame --></div>
+      <div class="clearfix grpelem" id="pu33667-4"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U33667-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u33667-4" data-muse-uid="U33667" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Callisto Mobile</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U33664-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="text clearfix colelem" id="u33664-4" data-muse-uid="U33664" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Though many mobile, individual applications may prove to be helpful, they leave out the most important aspect, namely the creation of holistic interconnectivity. Callisto Mobile is offering a holistic approach by integrating all different kind of systems and bringing it into a Frame Application.</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U33666-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext rounded-corners clearfix colelem" id="u33666-4" href="hotel.html" data-href="page:U2270" data-muse-uid="U33666" data-muse-type="txt_frame"><!-- content --><p id="u33666-2">READ MORE</p></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33946"><!-- group -->
+     <div class="grpelem" id="u33943"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u33878"><!-- group -->
+      <!-- m_editable region-id="editable-static-tag-U33883" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+      <a class="nonblock nontext museBGSize grpelem" id="u33883" href="vas-platform.html" data-href="page:U39897" data-muse-uid="U33883"><!-- simple frame --></a>
+      <!-- /m_editable -->
+      <div class="clearfix grpelem" id="pu33882-4"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U33882-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable,txtStyleTarget" data-ice-editable="link" -->
+       <a class="nonblock nontext clearfix colelem" id="u33882-4" href="vas-platform.html" data-href="page:U39897" data-muse-uid="U33882" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>VAS PLatform</p></a>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U33881-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable,txtStyleTarget" data-ice-editable="link" -->
+       <a class="nonblock nontext clearfix colelem" id="u33881-4" href="vas-platform.html" data-href="page:U39897" data-muse-uid="U33881" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p class="text" id="u33881-2">Individual value-added services for your customers at unbeatable prices!&nbsp; - The telecommunications pricing wars are on the increase. Currently, every T3 carrier and Internet telephony service provider (ITSP) must differentiate themselves by offering additional services to their customers. For this purpose, a powerful and cost-effective infrastructure is needed...</p></a>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U33879-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext rounded-corners clearfix colelem" id="u33879-4" href="vas-platform.html" data-href="page:U39897" data-muse-uid="U33879" data-muse-type="txt_frame"><!-- content --><p id="u33879-2">READ MORE</p></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u39994"><!-- group -->
+     <div class="grpelem" id="u39995"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u39996"><!-- group -->
+      <div class="museBGSize grpelem" id="u39998"><!-- simple frame --></div>
+      <div class="clearfix grpelem" id="pu39999-4"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U39999-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u39999-4" data-muse-uid="U39999" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Managed/Cloud Services</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U40000-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="text clearfix colelem" id="u40000-4" data-muse-uid="U40000" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Build your own managed/Cloud based Service on the basis of the Callisto or the VAS platform....</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U39997-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext rounded-corners clearfix colelem" id="u39997-4" href="managed-services.html" data-href="page:U19112" data-muse-uid="U39997" data-muse-type="txt_frame"><!-- content --><p id="u39997-2">READ MORE</p></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="pu974"><!-- group -->
+    <div class="clearfix mse_pre_init" id="u974"><!-- group -->
+     <div class="rgba-background rounded-corners grpelem" id="u313"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix mse_pre_init" id="u973"><!-- group -->
+     <div class="rgba-background rounded-corners grpelem" id="u314"><!-- simple frame --></div>
+    </div>
+    <div class="clip_frame mse_pre_init" id="u2481"><!-- svg -->
+     <img class="svg" id="u2476" src="images/artwork-6.svg?crc=403075730" width="235" height="185" alt="" data-mu-svgfallback="images/artwork%206_poster_.png?crc=4137536868"/>
+    </div>
+    <div class="clip_frame mse_pre_init" id="u48697"><!-- svg -->
+     <img class="svg" id="u59662" src="images/cisco-partner-new-rgb.svg?crc=4172302674" width="180" height="189" alt="" data-mu-svgfallback="images/cisco%20partner%20new%20rgb_poster_.png?crc=4221988106"/>
+    </div>
+    <div class="browser_width mse_pre_init" id="u47970-bw">
+     <div id="u47970"><!-- simple frame --></div>
+    </div>
+    <a class="nonblock nontext Button rounded-corners clearfix mse_pre_init" id="buttonu47850" href="contact-us.html" data-href="page:U2330"><!-- container box --><div class="clearfix grpelem" id="u47851-4"><!-- content --><p>Contact Us</p></div></a>
+    <a class="nonblock nontext Button rounded-corners clearfix mse_pre_init" id="buttonu47856" href="company.html" data-href="page:U14729"><!-- container box --><div class="clearfix grpelem" id="u47857-4"><!-- content --><p>Company</p></div></a>
+    <a class="nonblock nontext Button ButtonSelected rounded-corners clearfix mse_pre_init" id="buttonu47961" href="index.html" data-href="page:U71"><!-- container box --><div class="clearfix grpelem" id="u47962-4"><!-- content --><p>Home</p></div></a>
+    <div class="PamphletWidget clearfix mse_pre_init" id="pamphletu47617"><!-- none box -->
+     <div class="popup_anchor" id="u47618popup">
+      <div class="ContainerGroup clearfix" id="u47618"><!-- none box -->
+       <div class="Container invi rounded-corners clearfix grpelem" id="u47619"><!-- group -->
+        <div class="clearfix grpelem" id="u47620-3" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>&nbsp;</p>
+        </div>
+        <div class="clearfix grpelem" id="pu47710-4"><!-- column -->
+         <a class="nonblock nontext clearfix colelem" id="u47710-4" href="callisto.html" data-href="page:U2294"><!-- content --><p id="u47710-2">Callisto Enterprise Platform</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u47736-4" href="hospitality-communication.html" data-href="page:U2258"><!-- content --><p id="u47736-2">Callisto Hospitality Platform</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u47740-4" href="coc.html" data-href="page:U2306"><!-- content --><p id="u47740-2">Callisto Operator Console</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u47743-4" href="vas-platform.html" data-href="page:U39897"><!-- content --><p id="u47743-2">VAS Platform</p></a>
+        </div>
+       </div>
+       <div class="Container invi rounded-corners clearfix grpelem" id="u47746"><!-- column -->
+        <a class="nonblock nontext clearfix colelem" id="u47767-4" href="hospitality-communication.html" data-href="page:U2258"><!-- content --><p id="u47767-2">Hospitality Solutions</p></a>
+        <a class="nonblock nontext clearfix colelem" id="u47770-4" href="enterprise-communication.html" data-href="page:U2246"><!-- content --><p id="u47770-2">Enterprise Communication</p></a>
+        <div class="colelem" id="u47779"><!-- simple frame --></div>
+        <a class="nonblock nontext clearfix colelem" id="u47773-4" href="managed-services.html" data-href="page:U19112"><!-- content --><p id="u47773-2">Managed Services</p></a>
+        <a class="nonblock nontext clearfix colelem" id="u47776-4" href="vas-platform.html" data-href="page:U39897"><!-- content --><p id="u47776-2">Cloud Services</p></a>
+       </div>
+       <div class="Container invi rounded-corners clearfix grpelem" id="u47782"><!-- column -->
+        <a class="nonblock nontext clearfix colelem" id="u47806-4" href="services.html#consulting" data-href="anchor:U17471:U19789"><!-- content --><p id="u47806-2">Consulting</p></a>
+        <a class="nonblock nontext clearfix colelem" id="u47809-4" href="services.html#development" data-href="anchor:U17471:U19792"><!-- content --><p id="u47809-2">Engineering</p></a>
+        <a class="nonblock nontext clearfix colelem" id="u47812-4" href="services.html#training" data-href="anchor:U17471:U19795"><!-- content --><p id="u47812-2">Training</p></a>
+        <a class="nonblock nontext clearfix colelem" id="u47815-4" href="services.html#maintenance" data-href="anchor:U17471:U19798"><!-- content --><p id="u47815-2">Support / Maintenance</p></a>
+       </div>
+      </div>
+     </div>
+     <div class="ThumbGroup clearfix grpelem" id="u47636"><!-- none box -->
+      <div class="popup_anchor grpelem" id="pu47639popup">
+       <div class="popup_element Thumb clearfix" id="pu47639"><!-- group -->
+        <div class="popup_anchor" id="u47639popup">
+         <div class="popup_element rounded-corners clearfix" id="u47639"><!-- group -->
+          <div class="clearfix grpelem" id="u47732-4"><!-- content -->
+           <p>Products</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor grpelem" id="pu47759popup">
+       <div class="popup_element Thumb clearfix" id="pu47759"><!-- group -->
+        <div class="popup_anchor" id="u47759popup">
+         <div class="popup_element rounded-corners clearfix" id="u47759"><!-- group -->
+          <div class="clearfix grpelem" id="u47764-4"><!-- content -->
+           <p>Solutions</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor grpelem" id="pu47795popup">
+       <div class="popup_element Thumb clearfix" id="pu47795"><!-- group -->
+        <div class="popup_anchor" id="u47795popup">
+         <div class="popup_element rounded-corners clearfix" id="u47795"><!-- group -->
+          <div class="clearfix grpelem" id="u47800-4"><!-- content -->
+           <p>Services</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="3920" data-content-above-spacer="3919" data-content-below-spacer="261"></div>
+   <div class="clearfix grpelem" id="pu47973"><!-- column -->
+    <div class="clearfix colelem" id="u47973"><!-- group -->
+     <div class="clip_frame grpelem" id="u47977"><!-- image -->
+      <img class="block" id="u47977_img" src="images/ctmodule_logo140x54.png?crc=343596987" alt="" width="140" height="53"/>
+     </div>
+     <div class="clearfix grpelem" id="u47974-15" data-IBE-flags="txtStyleSrc"><!-- content -->
+      <p>CTMODULE AG</p>
+      <p>&nbsp;</p>
+      <p>Lehnweg 1</p>
+      <p>CH-3123 Belp/Berne</p>
+      <p>T: +41 (0)31 531 11 11</p>
+      <p>F: +41 (0)31 531 11 12</p>
+      <p>sales@ctmodule.com</p>
+     </div>
+     <div class="clearfix grpelem" id="u47975-16" data-IBE-flags="txtStyleSrc"><!-- content -->
+      <p><span id="u47975">Sales&amp;Support</span> GERMANY</p>
+      <p>&nbsp;</p>
+      <p>Frankfurter Straße 92</p>
+      <p>D-65760 Eschborn/Frankfurt</p>
+      <p>T: +49 (0)6196 2049173-0</p>
+      <p>F: +49 6196 2049 173-9</p>
+      <p>sales-d@ctmodule.com</p>
+     </div>
+     <div class="clearfix grpelem" id="u47976-7" data-IBE-flags="txtStyleSrc"><!-- content -->
+      <p>ABOUT CTMODULE</p>
+      <p>&nbsp;</p>
+      <p>Founded in 1997 and incorporated in Switzerland, CTModule AG specializes in communication and information technology and maintains a wide range of proven solutions in this field. The Company is focused on Enterprise Communication and Hospitality &amp; Guest Service solutions. CTModule is a “Preferred Solutions Partner” of Cisco® Systems and a member of “Swiss Made Software”.</p>
+     </div>
+    </div>
+    <a class="nonblock nontext clearfix colelem" id="u47983-4" href="contact-us.html" data-href="page:U2330"><!-- content --><p>Contact Us</p></a>
+    <div class="browser_width colelem" id="u47979-bw">
+     <div class="rgba-background" id="u47979"><!-- group -->
+      <div class="clearfix" id="u47979_align_to_page">
+       <div class="clearfix grpelem" id="u47980-4" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>© 2017 CTModule AG. All rights reserved.</p>
+       </div>
+       <a class="nonblock nontext clearfix grpelem" id="u47984-4" href="tablet/index.html?devicelock=tablet" data-href="page:U20366" data-IBE-flags="txtStyleSrc"><!-- content --><p><span id="u47984">Switch to mobile Version</span></p></a>
+       <a class="nonblock nontext clearfix grpelem" id="u47981-4" href="terms-conditions.html" data-href="page:U15832"><!-- content --><p>Terms</p></a>
+       <a class="nonblock nontext clearfix grpelem" id="u47982-4" href="imprint.html" data-href="page:U2521"><!-- content --><p>Imprint</p></a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/hospitality_theme1.png?crc=431885925" alt=""/>
+   <img class="preload" src="images/enterprise_commucication.jpg?crc=204393963" alt=""/>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide whether to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
+k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){f(!0)},5E3):f()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#pamphletu47617', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:200,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu47617 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+$('#u48478').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,65]},{"speed":[0,0],"in":[65,Infinity]}]);/* scroll effect */
+$('#u305').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1269.4]},{"speed":[0,0],"in":[1269.4,Infinity]}]);/* scroll effect */
+$('#u974').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1224.9]},{"speed":[-1,1],"in":[1224.9,Infinity]}]);/* scroll effect */
+$('#u973').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1222]},{"speed":[1,1],"in":[1222,Infinity]}]);/* scroll effect */
+$('#u2481').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1230.4]},{"speed":[-1,1],"in":[1230.4,Infinity]}]);/* scroll effect */
+$('#u48697').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1254.45]},{"speed":[1,1],"in":[1254.45,Infinity]}]);/* scroll effect */
+$('#u47970-bw').registerPositionScrollEffect([{"speed":[null,1],"in":[-Infinity,555.15]},{"speed":[null,0],"in":[555.15,Infinity]}]);/* scroll effect */
+$('#buttonu47850').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,540]},{"speed":[0,0],"in":[540,Infinity]}]);/* scroll effect */
+$('#buttonu47856').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,540]},{"speed":[0,0],"in":[540,Infinity]}]);/* scroll effect */
+$('#buttonu47961').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,540]},{"speed":[0,0],"in":[540,Infinity]}]);/* scroll effect */
+$('#pamphletu47617').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,540]},{"speed":[0,0],"in":[540,Infinity]}]);/* scroll effect */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
+</html>
