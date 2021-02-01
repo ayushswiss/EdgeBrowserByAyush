@@ -1,4 +1,6 @@
 ﻿  EdgeBrowserApp.cpp
   EdgeBrowserAppDlg.cpp
+  stdafx.cpp
+  ViewComponent.cpp
   Generating Code...
-  EdgeBrowserApp.vcxproj -> C:\Personal Work\C++\EdgeBrowserApp\x64\Debug\EdgeBrowserApp.exe
+  EdgeBrowserApp.vcxproj -> C:\Personal Work\C++\EdgeBrowserByAyush\x64\Debug\EdgeBrowserApp.exe

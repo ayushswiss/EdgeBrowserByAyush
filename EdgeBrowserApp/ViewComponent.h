@@ -80,7 +80,7 @@ private:
     bool OnPointerMessage(UINT message, WPARAM wParam, LPARAM lParam);
     void TrackMouseEvents(DWORD mouseTrackingFlags);
 
-    wil::com_ptr<ICoreWebView2ExperimentalCompositionController> m_compositionController;
+    //wil::com_ptr<ICoreWebView2ExperimentalCompositionController> m_compositionController;
     bool m_isTrackingMouse = false;
     bool m_isCapturingMouse = false;
     std::unordered_set<UINT> m_pointerIdsStartingInWebView;

@@ -27,7 +27,7 @@ namespace winrtComp = winrt::Windows::UI::Composition;
 // CEdgeBrowserAppDlg dialog
 class CEdgeBrowserAppDlg : public CDialog
 {
-// Construction
+	// Construction
 public:
 	CEdgeBrowserAppDlg(CWnd* pParent = nullptr);	// standard constructor
 
@@ -35,40 +35,34 @@ public:
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_EDGEBROWSERAPP_DIALOG };
 #endif
+	void InitializeWebView();
+	void CloseWebView(bool cleanupUserDataFolder = false);
+	HRESULT OnCreateEnvironmentCompleted(HRESULT result, ICoreWebView2Environment* environment);
+	HRESULT OnCreateCoreWebView2ControllerCompleted(HRESULT result, ICoreWebView2Controller* controller);
+	void RunAsync(std::function<void(void)> callback);
+	void ResizeEverything();
+	HRESULT DCompositionCreateDevice2(IUnknown* renderingDevice, REFIID riid, void** ppv);
 
-		static PCWSTR GetWindowClass();
-		void InitializeWebView();
-		void CloseWebView(bool cleanupUserDataFolder = false);
-		HRESULT OnCreateEnvironmentCompleted(HRESULT result, ICoreWebView2Environment* environment);
-		HRESULT OnCreateCoreWebView2ControllerCompleted(HRESULT result, ICoreWebView2Controller* controller);
-		virtual LRESULT CALLBACK WndProcStatic(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
-		bool HandleWindowMessage(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam, LRESULT* result);
-		void RunAsync(std::function<void(void)> callback);
-		void ResizeEverything();
-		bool ExecuteWebViewCommands(WPARAM wParam, LPARAM lParam);
-		bool ExecuteAppCommands(WPARAM wParam, LPARAM lParam);
-		HRESULT DCompositionCreateDevice2(IUnknown* renderingDevice, REFIID riid, void** ppv);
+	void OnSize(UINT a, int b, int c);
 
-		void OnSize(UINT a, int b, int c);
+	ICoreWebView2Controller* GetWebViewController()
+	{
+		return m_controller.get();
+	}
+	ICoreWebView2* GetWebView()
+	{
+		return m_webView.get();
+	}
+	ICoreWebView2Environment* GetWebViewEnvironment()
+	{
+		return m_webViewEnvironment.get();
+	}
+	HWND GetMainWindow()
+	{
+		return this->GetSafeHwnd();
+	}
 
-		ICoreWebView2Controller* GetWebViewController()
-		{
-			return m_controller.get();
-		}
-		ICoreWebView2* GetWebView()
-		{
-			return m_webView.get();
-		}
-		ICoreWebView2Environment* GetWebViewEnvironment()
-		{
-			return m_webViewEnvironment.get();
-		}
-		HWND GetMainWindow()
-		{
-			return this->GetSafeHwnd();
-		}
-
-// Implementation
+	// Implementation
 protected:
 	HICON m_hIcon;
 	DWORD m_creationModeId = 0;
@@ -83,7 +77,7 @@ protected:
 	template <class ComponentType, class... Args> void NewComponent(Args&&... args);
 
 	template <class ComponentType> ComponentType* GetComponent();
-	
+
 	// Generated message map functions
 	virtual BOOL OnInitDialog();
 	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);

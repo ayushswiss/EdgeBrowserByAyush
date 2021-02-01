@@ -1,9 +1,1 @@
-C:\Users\ayush.chaudhary.CORP\source\repos\EdgeBrowserApp\x64\Debug\x86\WebView2Loader.dll
-C:\Users\ayush.chaudhary.CORP\source\repos\EdgeBrowserApp\x64\Debug\x64\WebView2Loader.dll
-C:\Users\ayush.chaudhary.CORP\source\repos\EdgeBrowserApp\x64\Debug\arm64\WebView2Loader.dll
-C:\CTModule\Work Related\EdgeBrowserApp\x64\Debug\x86\WebView2Loader.dll
-C:\CTModule\Work Related\EdgeBrowserApp\x64\Debug\x64\WebView2Loader.dll
-C:\CTModule\Work Related\EdgeBrowserApp\x64\Debug\arm64\WebView2Loader.dll
-C:\Personal Work\C++\EdgeBrowserApp\x64\Debug\x86\WebView2Loader.dll
-C:\Personal Work\C++\EdgeBrowserApp\x64\Debug\x64\WebView2Loader.dll
-C:\Personal Work\C++\EdgeBrowserApp\x64\Debug\arm64\WebView2Loader.dll
+C:\Personal Work\C++\EdgeBrowserByAyush\x64\Debug\WebView2Loader.dll

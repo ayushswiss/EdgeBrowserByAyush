@@ -9,5 +9,6 @@
 #include <wil/com.h>
 #include <wrl.h>
 
-#include "webview2experimental.h"
-#include "WebView2ExperimentalEnvironmentOptions.h"
+#include "WebView2EnvironmentOptions.h"
+#include "WebView2.h"
+

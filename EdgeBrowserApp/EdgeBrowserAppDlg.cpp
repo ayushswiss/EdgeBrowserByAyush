@@ -27,22 +27,22 @@ static constexpr UINT s_runAsyncWindowMessage = WM_APP;
 // CEdgeBrowserAppDlg dialog
 
 CEdgeBrowserAppDlg::CEdgeBrowserAppDlg(CWnd* pParent /*=nullptr*/)
-	: CDialog(IDD_EDGEBROWSERAPP_DIALOG, pParent)
+    : CDialog(IDD_EDGEBROWSERAPP_DIALOG, pParent)
 {
-	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+    m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
     g_hInstance = GetModuleHandle(NULL);
-   
+
 }
 
 void CEdgeBrowserAppDlg::DoDataExchange(CDataExchange* pDX)
 {
-	CDialog::DoDataExchange(pDX);
+    CDialog::DoDataExchange(pDX);
 }
 
 BEGIN_MESSAGE_MAP(CEdgeBrowserAppDlg, CDialog)
-	ON_WM_SYSCOMMAND()
-	ON_WM_PAINT()
-	ON_WM_QUERYDRAGICON()
+    ON_WM_SYSCOMMAND()
+    ON_WM_PAINT()
+    ON_WM_QUERYDRAGICON()
     ON_WM_SIZE()
 END_MESSAGE_MAP()
 
@@ -55,62 +55,48 @@ void CEdgeBrowserAppDlg::OnSize(UINT a, int b, int c)
 
 BOOL CEdgeBrowserAppDlg::OnInitDialog()
 {
-	CDialog::OnInitDialog();
-    
+    CDialog::OnInitDialog();
+
     HRESULT hresult = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE);
 
     SetWindowLongPtr(this->GetSafeHwnd(), GWLP_USERDATA, (LONG_PTR)this);
 
-	CMenu* pSysMenu = GetSystemMenu(FALSE);
-	if (pSysMenu != nullptr)
-	{
-		BOOL bNameValid;
-		CString strAboutMenu;
-		bNameValid = strAboutMenu.LoadString(IDS_ABOUTBOX);
-		ASSERT(bNameValid);
-		if (!strAboutMenu.IsEmpty())
-		{
-			pSysMenu->AppendMenu(MF_SEPARATOR);
-			pSysMenu->AppendMenu(MF_STRING, IDM_ABOUTBOX, strAboutMenu);
-		}
-	}
-
-	// Set the icon for this dialog.  The framework does this automatically
-	//  when the application's main window is not a dialog
-	SetIcon(m_hIcon, TRUE);			// Set big icon
-	SetIcon(m_hIcon, FALSE);		// Set small icon
-
-	// TODO: Add extra initialization here
-    InitializeWebView();
-
-	return TRUE;  // return TRUE  unless you set the focus to a control
-}
-
-LRESULT CALLBACK CEdgeBrowserAppDlg::WndProcStatic(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
-{
-    if (auto app = (CEdgeBrowserAppDlg*)GetWindowLongPtr(hWnd, GWLP_USERDATA))
+    CMenu* pSysMenu = GetSystemMenu(FALSE);
+    if (pSysMenu != nullptr)
     {
-        LRESULT result = 0;
-        if (app->HandleWindowMessage(hWnd, message, wParam, lParam, &result))
+        BOOL bNameValid;
+        CString strAboutMenu;
+        bNameValid = strAboutMenu.LoadString(IDS_ABOUTBOX);
+        ASSERT(bNameValid);
+        if (!strAboutMenu.IsEmpty())
         {
-            return result;
+            pSysMenu->AppendMenu(MF_SEPARATOR);
+            pSysMenu->AppendMenu(MF_STRING, IDM_ABOUTBOX, strAboutMenu);
         }
     }
-   // DefWindowProc()
-    return CDialog::DefWindowProc(message, wParam, lParam);
-    //return TRUE;
+
+    // Set the icon for this dialog.  The framework does this automatically
+    //  when the application's main window is not a dialog
+    SetIcon(m_hIcon, TRUE);			// Set big icon
+    SetIcon(m_hIcon, FALSE);		// Set small icon
+
+    // TODO: Add extra initialization here
+    InitializeWebView();
+
+    return TRUE;  // return TRUE  unless you set the focus to a control
 }
+
 
 void CEdgeBrowserAppDlg::OnSysCommand(UINT nID, LPARAM lParam)
 {
-	if ((nID & 0xFFF0) == IDM_ABOUTBOX)
-	{
-		
-	}
-	else
-	{
-		CDialog::OnSysCommand(nID, lParam);
-	}
+    if ((nID & 0xFFF0) == IDM_ABOUTBOX)
+    {
+
+    }
+    else
+    {
+        CDialog::OnSysCommand(nID, lParam);
+    }
 }
 
 // If you add a minimize button to your dialog, you will need the code below
@@ -119,34 +105,34 @@ void CEdgeBrowserAppDlg::OnSysCommand(UINT nID, LPARAM lParam)
 
 void CEdgeBrowserAppDlg::OnPaint()
 {
-	if (IsIconic())
-	{
-		CPaintDC dc(this); // device context for painting
+    if (IsIconic())
+    {
+        CPaintDC dc(this); // device context for painting
 
-		SendMessage(WM_ICONERASEBKGND, reinterpret_cast<WPARAM>(dc.GetSafeHdc()), 0);
+        SendMessage(WM_ICONERASEBKGND, reinterpret_cast<WPARAM>(dc.GetSafeHdc()), 0);
 
-		// Center icon in client rectangle
-		int cxIcon = GetSystemMetrics(SM_CXICON);
-		int cyIcon = GetSystemMetrics(SM_CYICON);
-		CRect rect;
-		GetClientRect(&rect);
-		int x = (rect.Width() - cxIcon + 1) / 2;
-		int y = (rect.Height() - cyIcon + 1) / 2;
+        // Center icon in client rectangle
+        int cxIcon = GetSystemMetrics(SM_CXICON);
+        int cyIcon = GetSystemMetrics(SM_CYICON);
+        CRect rect;
+        GetClientRect(&rect);
+        int x = (rect.Width() - cxIcon + 1) / 2;
+        int y = (rect.Height() - cyIcon + 1) / 2;
 
-		// Draw the icon
-		dc.DrawIcon(x, y, m_hIcon);
-	}
-	else
-	{
-		CDialog::OnPaint();
-	}
+        // Draw the icon
+        dc.DrawIcon(x, y, m_hIcon);
+    }
+    else
+    {
+        CDialog::OnPaint();
+    }
 }
 
 // The system calls this function to obtain the cursor to display while the user drags
 //  the minimized window.
 HCURSOR CEdgeBrowserAppDlg::OnQueryDragIcon()
 {
-	return static_cast<HCURSOR>(m_hIcon);
+    return static_cast<HCURSOR>(m_hIcon);
 }
 // Register the Win32 window class for the app window.
 
@@ -154,147 +140,12 @@ void CEdgeBrowserAppDlg::ResizeEverything()
 {
     RECT availableBounds = { 0 };
     GetClientRect(&availableBounds);
-   // ClientToScreen(&availableBounds);
+    // ClientToScreen(&availableBounds);
 
     if (auto view = GetComponent<ViewComponent>())
     {
         view->SetBounds(availableBounds);
     }
-}
-
-
-bool CEdgeBrowserAppDlg::HandleWindowMessage(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam, LRESULT* result)
-{
-    // Give all components a chance to handle the message first.
-    for (auto& component : m_components)
-    {
-        if (component->HandleWindowMessage(hWnd, message, wParam, lParam, result))
-        {
-            return true;
-        }
-    }
-
-    switch (message)
-    {
-    case WM_SIZE:
-    {
-        // Don't resize the app or webview when the app is minimized
-        // let WM_SYSCOMMAND to handle it
-        if (lParam != 0)
-        {
-            ResizeEverything();
-            return true;
-        }
-    }
-    case WM_CLOSE:
-    {
-        PostQuitMessage(0);
-    }
-    break;
-    //! [DPIChanged]
-    case WM_DPICHANGED:
-    {       
-        return true;
-    }
-    break;
-    //! [DPIChanged]
-    case WM_PAINT:
-    {
-        PAINTSTRUCT ps;
-        BeginPaint(&ps);
-        EndPaint(&ps);
-        return true;
-    }
-    break;
-    case s_runAsyncWindowMessage:
-    {
-        auto* task = reinterpret_cast<std::function<void()>*>(wParam);
-        (*task)();
-        delete task;
-        return true;
-    }
-    break;
-    case WM_NCDESTROY:
-    {
-        int retValue = 0;
-        SetWindowLongPtr(hWnd, GWLP_USERDATA, NULL);
-        // NotifyClosed();
-         /*if (--s_appInstances == 0)
-         {
-             PostQuitMessage(retValue);
-         }*/
-    }
-    break;
-    case WM_QUERYENDSESSION:
-    {
-        // yes, we can shut down
-        // Register how we might be restarted
-        RegisterApplicationRestart(L"--restore", RESTART_NO_CRASH | RESTART_NO_HANG);
-        *result = TRUE;
-        return true;
-    }
-    break;
-    case WM_ENDSESSION:
-    {
-        if (wParam == TRUE)
-        {
-            // save app state and exit.
-            PostQuitMessage(0);
-            return true;
-        }
-    }
-    break;
-    case WM_KEYDOWN:
-    {
-        TRACE("KEY DOWN");
-        // If bit 30 is set, it means the WM_KEYDOWN message is autorepeated.
-        // We want to ignore it in that case.
-
-    }
-    break;
-    case WM_COMMAND:
-    {
-        return ExecuteWebViewCommands(wParam, lParam) || ExecuteAppCommands(wParam, lParam);
-    }
-    break;
-    }
-    return false;
-}
-
-bool CEdgeBrowserAppDlg::ExecuteWebViewCommands(WPARAM wParam, LPARAM lParam)
-{
-    if (!m_webView)
-        return false;
-
-    switch (LOWORD(wParam))
-    {
-        case IDM_GET_BROWSER_VERSION_AFTER_CREATION:
-        {
-            //! [GetBrowserVersionString]
-            wil::unique_cotaskmem_string version_info;
-            m_webViewEnvironment->get_BrowserVersionString(&version_info);
-            AfxMessageBox(L"Browser Version Info After WebView Creation", MB_OK);
-            return true;
-        }    
-    }
-    return false;
-}
-
-// Handle commands not related to the WebView, which will work even if the WebView
-// is not currently initialized.
-bool CEdgeBrowserAppDlg::ExecuteAppCommands(WPARAM wParam, LPARAM lParam)
-{
-    switch (LOWORD(wParam))
-    {
-        case IDM_GET_BROWSER_VERSION_BEFORE_CREATION:
-        {
-            wil::unique_cotaskmem_string version_info;
-            GetAvailableCoreWebView2BrowserVersionString(nullptr, &version_info);
-            AfxMessageBox(L"Browser Version Info Before WebView Creation",MB_OK);
-            return true;
-        }
-    }
-    return false;
 }
 
 void CEdgeBrowserAppDlg::RunAsync(std::function<void()> callback)
@@ -330,6 +181,7 @@ void CEdgeBrowserAppDlg::InitializeWebView()
 
 
     HRESULT hr = CreateCoreWebView2EnvironmentWithOptions(subFolder, nullptr, options.Get(), Microsoft::WRL::Callback<ICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler>(this, &CEdgeBrowserAppDlg::OnCreateEnvironmentCompleted).Get());
+    //HRESULT hr = CreateCoreWebView2EnvironmentWithOptions(subFolder, nullptr, options.Get(), Microsoft::WRL::Callback<ICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler>(this, &CEdgeBrowserAppDlg::OnCreateEnvironmentCompleted).Get());
 
     if (!SUCCEEDED(hr))
     {
@@ -383,29 +235,7 @@ void CEdgeBrowserAppDlg::CloseWebView(bool cleanupUserDataFolder)
 HRESULT CEdgeBrowserAppDlg::OnCreateEnvironmentCompleted(HRESULT result, ICoreWebView2Environment* environment)
 {
     m_webViewEnvironment = environment;
-    auto webViewExperimentalEnvironment = m_webViewEnvironment.try_query<ICoreWebView2ExperimentalEnvironment>();
-#ifdef USE_WEBVIEW2_WIN10
-    if (webViewExperimentalEnvironment && (m_dcompDevice || m_wincompCompositor))
-#else
-    if (webViewExperimentalEnvironment && m_dcompDevice)
-#endif
-    {
-        webViewExperimentalEnvironment->CreateCoreWebView2CompositionController(this->GetSafeHwnd(),
-            Microsoft::WRL::Callback<ICoreWebView2ExperimentalCreateCoreWebView2CompositionControllerCompletedHandler>(
-                [this](
-                    HRESULT result,
-                    ICoreWebView2ExperimentalCompositionController* compositionController) -> HRESULT {
-                        auto controller =
-                            wil::com_ptr<ICoreWebView2ExperimentalCompositionController>(compositionController)
-                            .query<ICoreWebView2Controller>();
-                        return OnCreateCoreWebView2ControllerCompleted(result, controller.get());
-                }).Get());
-    }
-    else
-    {
-        m_webViewEnvironment->CreateCoreWebView2Controller(
-            this->GetSafeHwnd(), Microsoft::WRL::Callback<ICoreWebView2CreateCoreWebView2ControllerCompletedHandler>(this, &CEdgeBrowserAppDlg::OnCreateCoreWebView2ControllerCompleted).Get());
-    }
+    m_webViewEnvironment->CreateCoreWebView2Controller(this->GetSafeHwnd(), Microsoft::WRL::Callback<ICoreWebView2CreateCoreWebView2ControllerCompletedHandler>(this, &CEdgeBrowserAppDlg::OnCreateCoreWebView2ControllerCompleted).Get());
 
     return S_OK;
 }
@@ -426,7 +256,7 @@ HRESULT CEdgeBrowserAppDlg::OnCreateCoreWebView2ControllerCompleted(HRESULT resu
 #endif
             m_creationModeId == IDM_CREATION_MODE_TARGET_DCOMP);
 
-           HRESULT hresult = m_webView->Navigate(L"https://ayushshyam.wixsite.com/perdesijaat");
+        HRESULT hresult = m_webView->Navigate(L"https://ayushshyam.wixsite.com/perdesijaat");
 
         if (hresult == S_OK)
         {
